@@ -1,0 +1,26 @@
+{
+  "name": "pgats-logica-de-programacao-trabalho-de-conclusao-disciplina",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/george-mathias/pgats-logica-de-programacao-trabalho-de-conclusao-disciplina#readme",
+  "bugs": {
+    "url": "https://github.com/george-mathias/pgats-logica-de-programacao-trabalho-de-conclusao-disciplina/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/george-mathias/pgats-logica-de-programacao-trabalho-de-conclusao-disciplina.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.6"
+  }
+}
