@@ -27,7 +27,6 @@ console.log(paymentService.getLastPayment());
 A entrega foi realizada seguindo estritamente a arquitetura solicitada:
 * `src/`: Contém a implementação da classe `PaymentService.js`.
 * `test/`: Contém os casos de teste automatizados dos métodos utilizando **Mocha** e o módulo nativo **Node Assert**.
-* `.github/workflows/`: Pipeline de Integração Contínua (CI) configurado para execução automatizada dos testes a cada push.
 
 ## Instalação e Execução
 
@@ -35,14 +34,14 @@ Certifique-se de estar utilizando o **Node.js (v24 ou superior)**.
 
 ```bash
 # 1. Clonar o repositório
-git clone <url-do-seu-repositorio>
+git clone https://github.com/george-mathias/pgats-logica-de-programacao-trabalho-de-conclusao-disciplina.git
 
 # 2. Entrar na pasta do projeto
-cd <nome-da-pasta>
+cd pgats-logica-de-programacao-trabalho-de-conclusao-disciplina
 
 # 3. Instalar as dependências de desenvolvimento
 npm install
 
 # 4. Executar a suíte de testes automatizados
-npm test
+npx mocha
 ```
