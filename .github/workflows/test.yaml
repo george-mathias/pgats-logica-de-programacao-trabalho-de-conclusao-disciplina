@@ -2,7 +2,7 @@ name: Automated Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ with-ci ]
 
 jobs:
   test:
